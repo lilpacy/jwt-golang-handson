@@ -1,0 +1,22 @@
+# jwt golang implements
+
+## format
+
+```sh
+make fmt
+```
+
+## run
+
+```sh
+make
+```
+
+## request
+
+```sh
+curl localhost:8080/public
+TOKEN=`curl localhost:8080/auth`
+curl localhost:8080/private -H "Authorization:Bearer ${TOKEN}"
+```
+
