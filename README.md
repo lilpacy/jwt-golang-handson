@@ -9,6 +9,7 @@ make fmt
 ## run
 
 ```sh
+export SIGNINGKEY=xxxx # or may use direnv etc
 make
 ```
 
