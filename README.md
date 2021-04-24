@@ -20,5 +20,5 @@ TOKEN=`curl localhost:8080/auth`
 curl localhost:8080/private -H "Authorization:Bearer ${TOKEN}"
 ```
 
-## further read
+## reference
 [https://qiita.com/po3rin/items/740445d21487dfcb5d9f](https://qiita.com/po3rin/items/740445d21487dfcb5d9f)
